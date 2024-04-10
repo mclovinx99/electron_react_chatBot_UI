@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Sidebar from './includes/sidebar.jsx';
-import { SendIcon } from './molecules/sendIcon.jsx';
+// import { SendIcon } from './molecules/sendIcon.jsx';
+import SendIcon from '../public/arrow.png'
+import recordIcon from '../public/record.png';
 // import Sendicon from 'public/arrow.png';
 
 
@@ -38,12 +40,19 @@ const Home = () => {
 									</div>
 								</div>
 							</div>
+							<div className='d-flex w-100 chat-input'>
+							<div className='audio-recorder'>
+								<img src={recordIcon} />
+							</div>
 							<form>
-								<div class="input-group flex">
+								<div class="input-group d-flex">
 									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your question" />
-									<button type="submit" class="btn btn-primary"></button>
+									<button type="submit" class="btn btn-primary">
+										<img src={SendIcon} style={{width: '4vh'}}/>
+										</button>
 								</div>
 							</form>
+							</div>
 						</div>
 					</div>
 				</div>
