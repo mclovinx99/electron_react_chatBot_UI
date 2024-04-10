@@ -242,6 +242,18 @@ body {
 	background-color: #1C1B1B;
 }
 
+.new-chat{
+	height: 2rem;
+	overflow: hidden;
+	margin: 1rem;
+	padding: 0.5rem;
+	font-size: inherit;
+	line-height: 1.5;
+	border-radius: 0.5rem;
+	color: #fff;
+	background-color: #1C1B1B;
+}
+
 @media(min-width:768px) {
 	#wrapper {
 		padding-left: 250px;

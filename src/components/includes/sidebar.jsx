@@ -14,8 +14,13 @@ const Sidebar = () => {
 
 
 			<div>
-						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						<p className='new-chat'>
+							New Chat
 						</p>
+			</div>
+
+
+			<div>
 						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
 						</p>
 						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
@@ -36,9 +41,9 @@ const Sidebar = () => {
 			</div>
 
 				<div className='fixed-bottom'>
-					<li>
-						<a href="#"><b>Settings</b></a>
-					</li>
+					{/* <li> */}
+						<span style={{color:'#fff'}}><b>Settings</b></span>
+					{/* </li> */}
 				</div>
 			</ul>
 		</div>
