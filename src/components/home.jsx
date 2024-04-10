@@ -18,25 +18,35 @@ const Home = () => {
 				<div className="col-md-9">
 					<div className="main-content">
 						<div className='main-heading'>
-							<h2 class="mt-3">Welcome to Ai Interview Assistant</h2>
-
-							<span className='p-3'>
-								<p>Maximizing Interview Success Through AI-Powered Guidance</p>
-							</span>
-							<form>
-								<div class="input-group">
-									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your question" />
-									<div class="input-group-append">
-										<button type="submit" class="btn btn-primary"></button>
+							<div className='chat-sec'>
+								<h1 className="mt-3">Welcome to Ai Interview Assistant</h1>
+								<span className='p-3'>
+									<h5>Maximizing Interview Success Through AI-Powered Guidance</h5>
+								</span>
+								<div class="info-container">
+									<div class="info">
+										<p> <b>Accurate Answers</b></p>
+										<p>Trustworthy, precise responses tailored to you.</p>
 									</div>
+									<div class="info">
+										<p><b>Audio Analysis</b></p>
+										<p>Deep insights from cutting-edge audio technology.</p>
+									</div>
+									<div class="info">
+										<p><b>Fast response</b></p>
+										<p>Rapid assistance for seamless productivity.</p>
+									</div>
+								</div>
+							</div>
+							<form>
+								<div class="input-group flex">
+									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your question" />
+									<button type="submit" class="btn btn-primary"></button>
 								</div>
 							</form>
 						</div>
-						{/* <div className="submitForm">
-						</div> */}
 					</div>
 				</div>
-				{/* </div> */}
 			</div>
 		</>
 	)

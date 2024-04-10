@@ -11,27 +11,35 @@ const Sidebar = () => {
 						<b>AI Interview Assistant</b>
 					</a>
 				</li>
-				<li>
-					<a href="#">Dashboard</a>
-				</li>
-				<li>
-					<a href="#">Shortcuts</a>
-				</li>
-				<li>
-					<a href="#">Overview</a>
-				</li>
-				<li>
-					<a href="#">Events</a>
-				</li>
-				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<a href="#">Services</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
+
+
+			<div>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+						<p className='custom-text'>his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.his will be a chat thread of user.This will be a chat thread of user. This will be a chat thread of user.This will be a chat thread of user.
+						</p>
+
+			</div>
+
+				<div className='fixed-bottom'>
+					<li>
+						<a href="#"><b>Settings</b></a>
+					</li>
+				</div>
 			</ul>
 		</div>
 	);

@@ -13,28 +13,42 @@ body {
 	
 } */
 
+
+
 .input-group {
 	position: relative;
-	/* right: 2rem; */
-	top: 13rem;
 	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	width: 40em;
+	width: 100%;
+	height: 64px;
 }
 
-.input-group-append {
+.input-group input {
+	width: 85%;
+}
+
+.input-group .btn {
+	position: relative;
+	z-index: 2;
+	border-radius: 2px;
+	background: black;
+	width: 15%;
+}
+
+
+/* .input-group-append {
 	position: absolute;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	display: flex;
-}
-
+} */
+/* 
 .input-group-append .btn {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
-}
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+} */
 
 /* Toggle Styles */
 .app-container {
@@ -43,36 +57,55 @@ body {
 
 .main-content {
 	display: flex;
-	/* justify-content: center; */
-	min-height: 97vh !important;
+	min-height: calc(100vh - 20px);
 	background: #1C1B1B !important;
-	/* Horizontally center the content */
-	align-items: end;
-	/* Vertically center the content */
-	/* Ensure the container fills the viewport height */
 	border-radius: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 24px;
+
 }
 
 .main-heading {
 	display: flex;
 	flex-direction: column;
-	min-height: 70vh;
-	margin-left: 9em;
-	min-width: max-content;
 	color: #fff;
+	/* min-height: calc(100vh - 88px); */
+}
+
+.chat-sec {
+	min-height: calc(100vh - 104px);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.info {
+	flex-basis: 32%;
+	/* background-color: #f0f0f0; */
+	color: #fff;
+	min-height: 104px;
+	font-size: 13px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .submitForm {
 	width: 100%;
-	/* Set the width to 100% to fill the available space */
 	max-width: 400px;
-	/* Set a maximum width for the form */
 	margin: 0 auto;
-	/* Center the form horizontally */
 	padding: 20px;
-	/* Add some padding for spacing */
 }
 
 
@@ -92,7 +125,7 @@ body {
 	z-index: 1;
 	position: fixed;
 	left: 250px;
-	width: 0;
+	width: 315px;
 	height: 100%;
 	margin-left: -250px;
 	overflow-y: auto;
@@ -123,7 +156,7 @@ body {
 .sidebar-nav {
 	position: absolute;
 	top: 0;
-	width: 250px;
+	width: 315px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -137,7 +170,7 @@ body {
 .sidebar-nav li a {
 	display: block;
 	text-decoration: none;
-	color: #999999;
+	color: #fff;
 }
 
 .sidebar-nav li a:hover {
@@ -158,12 +191,24 @@ body {
 }
 
 .sidebar-nav>.sidebar-brand a {
-	color: #999999;
+	color: #fff;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
 	color: #fff;
 	background: none;
+}
+
+.custom-text {
+	height: 2rem;
+    overflow: hidden;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: inherit;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #1C1B1B;
 }
 
 @media(min-width:768px) {
@@ -176,7 +221,7 @@ body {
 	}
 
 	#sidebar-wrapper {
-		width: 250px;
+		width: 315px;
 	}
 
 	#wrapper.toggled #sidebar-wrapper {
