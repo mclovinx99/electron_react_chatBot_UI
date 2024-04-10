@@ -142,14 +142,23 @@ body {
 #wrapper.toggled {
 	padding-left: 250px;
 }
+.sidebar{
+	max-width: 252px;
+	width: 100%;
+	position: relative;
+}
 
+.chat-main{
+	max-width: calc(100% - 252px);
+	width: 100%;
+}
 #sidebar-wrapper {
 	z-index: 1;
-	position: fixed;
-	left: 250px;
-	width: 0;
-	height: 100%;
-	margin-left: -250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 	overflow-y: auto;
 	background: #000;
 	-webkit-transition: all 0.5s ease;
@@ -178,7 +187,7 @@ body {
 .sidebar-nav {
 	position: absolute;
 	top: 0;
-	width: 315px;
+    width: 100%;
 	margin: 0;
 	padding: 0;
 	list-style: none;
